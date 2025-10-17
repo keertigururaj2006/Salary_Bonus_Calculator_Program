@@ -1,12 +1,13 @@
-# Clone your GitHub repository
-git clone https://github.com/your-username/salary-bonus-calculator.git
-cd salary-bonus-calculator
+# Salary Bonus Calculator
 
-# Copy your salary.py file into this folder
+# Input
+salary = float(input("Enter employee salary: "))
 
-# Add and commit the file
-git add salary.py
-git commit -m "Initial version - display salary only"
+# Calculate 10% bonus
+bonus = salary * 0.10
+total_salary = salary + bonus
 
-# Push to GitHub
-git push origin main
+# Display result
+print(f"Base Salary: ₹{salary:.2f}")
+print(f"Bonus (10%): ₹{bonus:.2f}")
+print(f"Total Salary after Bonus: ₹{total_salary:.2f}")
