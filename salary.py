@@ -1,7 +1,12 @@
-# Salary Display Program
+# Clone your GitHub repository
+git clone https://github.com/your-username/salary-bonus-calculator.git
+cd salary-bonus-calculator
 
-# Input
-salary = float(input("Enter employee salary: "))
+# Copy your salary.py file into this folder
 
-# Display salary
-print(f"Employee Salary: ₹{salary:.2f}")
+# Add and commit the file
+git add salary.py
+git commit -m "Initial version - display salary only"
+
+# Push to GitHub
+git push origin main
